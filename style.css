@@ -1,0 +1,132 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to left, #9061BD , #EB333F) ;
+    
+}
+.container{
+     height: 100%;
+       display: flex;
+       flex-direction:column;
+      width: 70%;
+      margin: 40px auto;
+      font-family: sans-serif;
+
+    
+      
+}   
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    box-shadow: 20px;
+} 
+    
+.btn{
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+    letter-spacing: 1px;
+
+}
+   .dice{
+    height: 100px;
+    position: relative;
+    left: 480px;
+    bottom: 100px;
+   }
+    
+
+.player1 {
+    
+    height: 100%;
+    width: 50%;
+    background-color:#ded8dece ;
+    text-align: center;
+
+
+}
+.player1 h2{
+    color:black;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 50px 0;
+    
+    }
+.player1 h3{
+    color: #c71f60;
+    font-size: 70px;
+    
+    
+}
+
+    
+        
+.player1 .current1 {
+    font-size: 15px;
+    border-radius: 10px;
+    margin:150PX ;
+    background-color: #c04c6b;
+    padding: 25px;
+    color: white;
+    }
+    
+.player2{
+        
+    background-color: #d18cbc91;
+    height: 100%;
+    width: 50%;
+    text-align: center; 
+ }
+ .player2 h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 50px 0;
+ }
+.player2 h3{
+    color: #c71f60;
+    font-size: 40px;
+    
+
+}
+.current2{
+    font-size: 15px;
+    border-radius: 10px;
+    margin:150PX ;
+    background-color: #c04c6b;
+    padding: 25px;
+    color: white;
+
+
+}
+.btn-roll{
+    position: relative;
+    right: 150px;
+    bottom:200px ;
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+}
+.btn-hold{
+    position: relative;
+    right: 270px;
+    bottom:120px ;
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+    
+
+
+
